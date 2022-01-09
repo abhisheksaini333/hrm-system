@@ -1,0 +1,45 @@
+.topSection {
+    position: relative;
+}
+.homeImage {
+    width: 100%;
+    height: 450px;
+}
+.logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    font-size: 45px;
+    background-color: white;
+    border: 1px solid tomato;
+    margin: auto;
+    line-height: 90px;
+}
+.branding {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.searchOptions {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 240px;
+    text-align: center;
+}
+
+.locationBox {
+    height: 45px;
+    margin-right: 20px;
+    width: 160px;
+}
+
+.searchTextBox {
+    height: 45px;
+    width: 450px;
+}

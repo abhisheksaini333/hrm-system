@@ -1,0 +1,33 @@
+.qs-boxes-container {
+
+}
+
+.qs-box {
+    display: inline-block;
+    height: 160px;
+    width: 33%;
+    margin-top: 20px;
+}
+
+.qs-box-contents {
+    border: 1px solid tomato;
+    margin: 10px;
+    position: relative;
+}
+
+.qs-box-contents img {
+    height: 160px;
+    width: 160px;
+}
+
+.qs-box-contents h4 {
+    position: absolute;
+    top: 30px;
+    left: 190px;
+}
+
+.qs-box-contents p {
+    position: absolute;
+    top: 80px;
+    left: 190px;
+}
