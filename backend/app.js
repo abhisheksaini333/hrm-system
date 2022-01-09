@@ -21,7 +21,7 @@ app.use('/', routes);
 
 // connnect to MongoDBabcdefgh
 mongoose.connect(
-    'mongodb+srv://root:abcdefgh@cluster0.spcvd.gcp.mongodb.net/hrm?retryWrites=true&w=majority',
+    'mongodb+srv://XXXX:YYYYYY@cluster0.spcvd.gcp.mongodb.net/hrm?retryWrites=true&w=majority',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true

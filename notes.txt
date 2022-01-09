@@ -1,0 +1,40 @@
+
+FE
+    -> React
+        > npx create-react-app hrm-system 
+        > cd hrm-system
+
+    -> include bootstrap
+         -> https://getbootstrap.com/
+         -> copy the CDN links and paste in the index.html under the public folder
+
+
+    ->  heirarchies:
+        -> LIFT principle
+        -> Folder by feature
+            /home
+                -> Home.js
+                -> Home.css
+
+    ->   /src
+            /components
+                -> Home.js
+                -> Wallpaper.js
+                -> QuickSearches.js
+                -> QucikSearch.js
+                -> Filter.js
+                -> Details.js
+            /Assets (keep all the media files)
+            /Styles (keep all the css files)
+                -> Home.css
+                -> Wallpaper.css
+                -> etc
+            Router.js (to implement routing in the browser side)
+
+
+
+
+
+BE
+
+DB
